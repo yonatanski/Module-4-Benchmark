@@ -1,0 +1,44 @@
+.main-nav-bar {
+  margin-left: 16%;
+  position: relative;
+}
+nav.bg-light {
+  background-color: transparent !important;
+}
+.dropdown-toggle img {
+  vertical-align: middle;
+  position: relative;
+  top: -9%;
+  left: -6px;
+  object-fit: fill;
+  width: 30px;
+  height: 30px;
+}
+
+.dropdown-toggle {
+  font-weight: bolder;
+  background-color: rgb(41, 41, 41) !important ;
+  border: none;
+}
+.dropdown-toggle,
+.dropdown-menu {
+  background-color: rgb(18, 18, 18);
+}
+
+.dropdown-toggle:hover {
+  background-color: #414141 !important;
+  color: rgb(255, 255, 255);
+}
+
+.dropdown-item {
+  color: rgb(255, 255, 255);
+}
+.dropdown-item:hover {
+  color: rgb(255, 255, 255);
+  background-color: #414141;
+}
+
+.dropdown-toggle:hover {
+  color: rgb(255, 255, 255) !important;
+  /* background-color: rgba(5, 5, 5, 0.5); */
+}

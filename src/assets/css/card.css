@@ -1,0 +1,17 @@
+.song-card {
+  background-color: rgba(31, 27, 27, 0.4);
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+}
+.song-card:hover {
+  background-color: rgba(104, 101, 101, 0.5) !important;
+}
+div.song-card img {
+  border-radius: 13px;
+}
+
+img.img-fluid {
+  width: 200px !important;
+  margin-top: 10px;
+}

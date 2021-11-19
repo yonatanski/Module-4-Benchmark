@@ -1,0 +1,85 @@
+.bg-container {
+  /* height: 7.8rem; */
+  /* background-color: #282828; */
+  height: calc(100vh - 90vh);
+  background-color: #181818;
+}
+
+.playerControls {
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.playerControls div img {
+  width: 14px;
+  max-height: 16px;
+  margin-right: 0.5rem;
+  filter: brightness(60%);
+}
+
+.playerControls a:hover {
+  filter: brightness(80%);
+  color: #282828 !important;
+}
+
+.progressContainer {
+  color: white;
+}
+
+.progressContainer span {
+  opacity: 0.5;
+}
+
+.progress {
+  color: white;
+  background-color: #414141;
+  height: 6px;
+  margin: 0 1rem;
+}
+.playerArtistInfo > div {
+  overflow: hidden;
+}
+.playBar p,
+.playBar h6 {
+  color: white;
+  margin: 0;
+}
+
+.playBar h6 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.playBar p {
+  font-size: 0.85rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.playerVolume {
+  display: flex;
+  align-items: center;
+  margin-top: 26px;
+}
+.playerVolume .fa {
+  opacity: 0.5;
+  color: white;
+  margin-right: 0.5rem;
+}
+.playerVolume input {
+  -webkit-appearance: none;
+  outline: none;
+  background: transparent;
+}
+.playerVolume input::-webkit-slider-runnable-track {
+  background-color: #414141;
+  height: 6px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.playerVolume input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 0px;
+  box-shadow: -200px 0 0 200px #007bff;
+}
